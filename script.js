@@ -320,7 +320,7 @@ document.querySelector("#quiz-form").addEventListener("submit", (event) => {
       : percentage >= 70
         ? "Strong work. Review any questions you missed and keep asking when unsure."
         : "A good start. Revisit the three modules, then try the check again.";
-  result.textContent = `Score: ${score}/10 (${percentage}%). ${feedback}`;
+  result.textContent = `Score: ${score}/6 (${percentage}%). ${feedback}`;
   completed.add(5);
   updateProgress();
 });
